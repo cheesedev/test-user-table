@@ -1,0 +1,23 @@
+.btn {
+  width: min-content;
+  padding: 8px 24px;
+  border-radius: 6px;
+  border: none;
+  background: linear-gradient(to right bottom, #f4fdf7, #c8f4d6, #9beab3, #6bdf8f, #26d368);
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+
+  &:hover {
+    background: linear-gradient(to right bottom, #bde7cb, #a5e6bb, #8ce5aa, #71e398, #50e186);
+    color: white;
+    cursor: pointer;
+  }
+
+  &:disabled {
+    background-image: none;
+    background-color: #b6b6b0;
+    color: #575756;
+    cursor: not-allowed;
+  }
+}
